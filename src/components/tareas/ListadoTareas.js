@@ -14,24 +14,7 @@ const ListadoTareas = () => {
 	// Arrary destructurinf para extraer el proyecto actual
 	const [proyectoActual] = proyecto;
 
-	const tareasProyecto = [
-		{
-			nombre: 'Elegir Plataforma',
-			estado: true,
-		},
-		{
-			nombre: 'Elegir Colores',
-			estado: false,
-		},
-		{
-			nombre: 'Elegir Plataforma de pago',
-			estado: false,
-		},
-		{
-			nombre: 'Elegir Hosting',
-			estado: true,
-		},
-	];
+	const tareasProyecto = [];
 
 	// Eliminar proyecto
 	const onClickEliminar = () => {
